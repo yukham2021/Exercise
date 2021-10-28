@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+class MyClass{
+	public:
+		void myMethod(){
+			cout<<"Hello World";
+		}
+};
+int main(){
+	MyClass myobj;
+	myobj.myMethod();
+	return 0;
+}
